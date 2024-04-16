@@ -1,0 +1,19 @@
+{
+    "name": "akhmads/laravel-crud",
+    "description": "Laravel crud demo",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Akhmads\\Crud\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Akhmad",
+            "email": "akhmadshaleh@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
