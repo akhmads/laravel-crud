@@ -28,6 +28,6 @@ class DemoUninstallCommand extends Command
         file_put_contents(base_path('routes/web.php'), $webRoute);
 
         $this->info("Done");
-        $this->info("Note : please remove 'Akhmads\Crud\CrudServiceProvider::class' on 'bootstrap/providers.php' file");
+        // $this->info("Note : please remove 'Akhmads\Crud\CrudServiceProvider::class' on 'bootstrap/providers.php' file");
     }
 }
