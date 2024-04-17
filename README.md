@@ -15,3 +15,15 @@ then run the artisan command
 ```
 php artisan demo:install
 ```
+
+Test the application
+
+```
+php artisan serve
+```
+
+try entering this address in the browser
+
+```
+http://127.0.0.1:8000/demo/users
+```
