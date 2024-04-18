@@ -13,7 +13,7 @@ composer require akhmads/laravel-crud:dev-main
 Run the artisan command
 
 ```
-php artisan demo:install
+php artisan crud:install
 ```
 
 Test the application
