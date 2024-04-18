@@ -10,7 +10,7 @@ class CrudInstallCommand extends Command
 {
     protected $signature = 'crud:install';
 
-    protected $description = 'Installing crud demo';
+    protected $description = 'Installing simple crud';
 
     protected $ds = DIRECTORY_SEPARATOR;
 
@@ -23,7 +23,6 @@ class CrudInstallCommand extends Command
         (new Filesystem)->ensureDirectoryExists(base_path('app/Http/Controllers/Demo'));
         (new Filesystem)->ensureDirectoryExists(base_path('resources/views/demo/users'));
 
-        (new Filesystem)->copy(__DIR__.'/../../routes/demo.php', base_path('routes/demo.php'));
         (new Filesystem)->copy(__DIR__.'/../../../stubs/Controllers/Demo/UserController.php', base_path('app/Http/Controllers/Demo/UserController.php'));
         (new Filesystem)->copyDirectory(__DIR__.'/../../../stubs/resources/views/demo/users', base_path('resources/views/demo/users'));
 

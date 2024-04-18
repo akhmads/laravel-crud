@@ -10,7 +10,7 @@ class CrudUninstallCommand extends Command
 {
     protected $signature = 'crud:uninstall';
 
-    protected $description = 'Unstalling crud demo';
+    protected $description = 'Unstalling simple crud';
 
     public function handle()
     {
