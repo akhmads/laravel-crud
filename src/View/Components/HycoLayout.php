@@ -1,12 +1,12 @@
 <?php
 
-namespace Akhmads\Crud\View\Components;
+namespace Akhmads\Hyco\View\Components;
 
 use Closure;
 use Illuminate\Contracts\View\View;
 use Illuminate\View\Component;
 
-class BsLayout extends Component
+class HycoLayout extends Component
 {
     /**
      * Create a new component instance.
