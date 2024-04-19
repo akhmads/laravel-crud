@@ -1,21 +1,21 @@
 {
-  "name": "akhmads/hyco",
-  "description": "Hyco library",
+  "name": "akhmads/laravel-crud",
+  "description": "Laravel crud demo",
   "type": "library",
   "license": "MIT",
   "support": {
-    "issues": "https://github.com/akhmads/hyco/issues",
-    "source": "https://github.com/akhmads/hyco"
+    "issues": "https://github.com/akhmads/laravel-crud/issues",
+    "source": "https://github.com/akhmads/laravel-crud"
   },
   "autoload": {
     "psr-4": {
-      "Akhmads\\Hyco\\": "src/"
+      "Akhmads\\Crud\\": "src/"
     }
   },
   "extra": {
     "laravel": {
       "providers": [
-        "Akhmads\\Hyco\\HycoServiceProvider"
+        "Akhmads\\Crud\\CrudServiceProvider"
       ]
     }
   },

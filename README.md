@@ -1,33 +1,19 @@
-# Hyco Library
+# Laravel 11 CRUD Demo Package
 
-Hyco library
+Simple CRUD (Create, Read, Update, Delete) using laravel
 
 ## Installation
 
 Open terminal or command prompt and go to your laravel project
 
 ```
-composer require akhmads/hyco:dev-main
+composer require akhmads/laravel-crud:dev-main
 ```
 
 Run the artisan command
 
 ```
-php artisan hyco:install
-```
-
-Open `tailwind.config.js` add following code
-
-```
-export default {
-    content: [
-        ...
-        // Hyco
-        "./vendor/akhmads/hyco/src/View/Components/**/*.php",
-        "./vendor/akhmads/hyco/src/resources/views/**/*.php",
-    ],
-    ...
-}
+php artisan crud:install
 ```
 
 Test the application
@@ -39,5 +25,5 @@ php artisan serve
 Enter this address in the browser
 
 ```
-http://127.0.0.1:8000/hyco/counter
+http://127.0.0.1:8000/demo/users
 ```
